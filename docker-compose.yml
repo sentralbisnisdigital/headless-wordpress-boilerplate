@@ -19,7 +19,7 @@ services:
   nginx:
     depends_on:
       - wordpress
-    image: nginx:1.23.3-alpine
+    image: nginx:1.28.0-alpine@sha256:0e556eba708c83bbfdb3fef02b88e0f83dd8f844951cc9c21e9f74e01ca80718
     container_name: nginx
     restart: unless-stopped
     ports:
